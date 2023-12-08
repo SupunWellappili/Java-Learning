@@ -4,11 +4,7 @@ public class Demo01 {
         ch ='A';
         System.out.println(ch);//A
 
-
         char sh =65;
         System.out.println(sh);//A
     }
-
-
-
 }
