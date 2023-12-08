@@ -30,10 +30,5 @@ public class Demo06 {
         System.out.println("AB\\CD");
         System.out.println("AB\"CD");
         //System.out.println("AB\wCD");
-
-
-
-
-
     }
 }
