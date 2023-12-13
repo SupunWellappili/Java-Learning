@@ -12,5 +12,17 @@ public class Demo10 {
         System.out.println(+x);
         System.out.println(-x);
 
+
+        int p =45;
+        int q =80;
+        --p;
+        System.out.println(p++);
+        System.out.println(p);
+
+        System.out.println("---------");
+        q++;
+        System.out.println(q++);
+        System.out.println(q);
+
     }
 }
