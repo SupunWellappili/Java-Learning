@@ -1,3 +1,4 @@
+
 package Logic_Gate;
 
 import java.util.Scanner;
@@ -18,3 +19,9 @@ public class Demo01 {
         }
     }
 }
+
+
+
+
+
+
