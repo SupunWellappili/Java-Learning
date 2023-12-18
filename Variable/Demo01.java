@@ -1,5 +1,6 @@
 package Variable;
-class Demo_07 {
+
+class Demo01 {
     public static void main(String[] args) {
         int x = 100;
         System.out.println(x);
@@ -12,6 +13,6 @@ class Demo_07 {
 
         }
         System.out.println(x);
-       // System.out.println(y);//Illegal
+        // System.out.println(y);//Illegal
     }
 }
