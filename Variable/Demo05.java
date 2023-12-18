@@ -9,12 +9,12 @@ public class Demo05 {
         int num = input.nextInt();
 
         int x =100;
-        System.out.println(x);
+        System.out.println(x);//100
         int y ;
         if (num>0){//Variable aka change wenna puluwn nisa
             y=455;
         }
-        System.out.println(x);
-        //System.out.println(y);
+        System.out.println(x);//100
+        //System.out.println(y);//455
     }
 }
