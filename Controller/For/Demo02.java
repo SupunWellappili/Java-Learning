@@ -15,5 +15,6 @@ public class Demo02 {
             System.out.println("P");
             System.out.println("Q");
         }
+
     }
 }
