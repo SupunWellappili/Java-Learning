@@ -30,5 +30,9 @@ public class Demo08 {
 
             System.out.println("Wrong Number!!");
         }
+
+        System.out.println("--------------");
+
+        System.out.println(num == 1 ? "A\nB" : num ==2 ? "B" : "Incorrect Value");
     }
 }
