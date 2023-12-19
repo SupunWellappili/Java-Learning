@@ -17,9 +17,8 @@ public class Demo06 {
 
         switch (num) {
             case b:
-                // case a:
-                // case c:
-
+                //case a:Illegal
+                //case c: Illegal
         }
     }
 }
