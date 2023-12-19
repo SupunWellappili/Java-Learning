@@ -26,6 +26,8 @@ public class Demo04 {
 
             case 2:
                 System.out.println("28 Days!!!");break;
+            default:
+                System.out.println("Enter Wrong Month");
         }
 
     }
