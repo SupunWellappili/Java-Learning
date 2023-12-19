@@ -9,7 +9,6 @@ public class Demo02 {
         int no = input.nextInt();
 
         switch (no) {
-
             case 1:
                 System.out.println("A");
             case 2:
