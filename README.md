@@ -29,3 +29,17 @@ ob.getting(x,y);
         System.out.println(p+"  "+q);
     }
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+class main {
+public static void main(String args[]) {
+getting(10,20,30); //illegal
+getting(10); //illegal
+getting(10,20); //legal   same parametar same argument
+}
+
+    public static void getting(int x, int y) {
+        System.out.println(x+" "+y);
+    }
+}
