@@ -43,3 +43,11 @@ getting(10,20); //legal   same parametar same argument
         System.out.println(x+" "+y);
     }
 }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+___________Return_____________
+
+
+1)return; (Only "Void" type method )---optional
+2)return date; (return type method)
