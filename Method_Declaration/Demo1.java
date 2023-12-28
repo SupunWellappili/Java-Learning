@@ -1,6 +1,6 @@
 package Method_Declaration;
 
-public class Demo01 {
+ class Demo01 {
     public static void main(String[] args) {
         myMethod();
         Demo01.myMethod();
