@@ -12,6 +12,3 @@ public class Demo02 {
             getting(12, 34);
         }
     }
-
-}
-}
