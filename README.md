@@ -54,3 +54,61 @@ ___________Return_____________
 
 1)return; (Only "Void" type method )---optional
 2)return date; (return type method)
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
++++++++++++++____One Step___+++++++++++++++
+
+class Example {
+public static int getting(int a, int b) {
+int tot;
+tot = a + b;
+if (tot > 0) {
+return tot;
+}
+return -1;
+}
+
+        public static void main (String args[]){
+            getting(12, 3);
+        }
+    }
+
+++++++++++++++____Two Step______++++++++++++++
+
+class Example {
+public static int getting(int a, int b) {
+int tot;
+tot = a + b;
+if (tot > 0) {
+return tot;
+}else{
+return -1;
+}
+}
+
+        public static void main (String args[]){
+            getting(12, 3);
+        }
+    }
+
+++++++++++++++++++++______Error___+++++++++++++++++
+
+class Example {
+public static int getting(int a, int b) {
+int tot;
+tot = a + b;
+if (tot > 0) {
+return tot;
+} else {
+return 0;
+}
+return -1; //illegal
+}
+
+    public static void main(String args[]) {
+        getting(12, 3);
+    }
+}

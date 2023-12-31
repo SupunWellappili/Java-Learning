@@ -4,9 +4,13 @@ public class Demo04 {
     public static int  getting(int x ,int y){
         int tot = x+y;
         if (tot>0){
-            return tot;
+           return tot;
         }
-        return -1;
+        //return -1;
+        else {
+            return -1;
+        }
+        //return -1;
     }
     public static void main(String[] args) {
        /* int xx =getting(12,4);
