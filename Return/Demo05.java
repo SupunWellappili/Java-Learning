@@ -12,9 +12,11 @@ public class Demo05 {
             return 'C';
         } else if (avg > 34) {
             return 'S';
-        } else {
+        }/* else {
             return 'F';
-        }
+        }*/
+
+        return 'F';
     }
 
     public static void main(String[] args) {
