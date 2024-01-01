@@ -141,3 +141,99 @@ return;
 }
 
 //Void type method 1kak kisiwitaka value return krnne na awagema variable akakata asign krnaa ho  sop 1kak athule call krnna baa
+
+
+//////////////////////////////Compile Ok?////////////////////////////////////
+
+Question-:
+
+class Example {
+public static void main(String args[]) {
+m();
+}
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+class Example {
+public static void m() {
+}
+
+    public static void main(String args[]) {
+        m();
+    }
+
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+class Example {
+public static int m() {
+return 100;
+}
+
+    public static void main(String args[]) {
+        m();
+    }
+}
+
+//////////////////////////////Compile Ok?////////////////////////////////////
+
+Question-:
+
+class Example {
+public static void main(String args[]) {
+int a;
+a = m();
+}
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Answer-:
+
+class Example {
+public static int m(int tot) {
+return tot;
+}
+
+    public static void main(String args[]) {
+        int a;
+        int num=0;
+        a = m(num);
+    }
+}
+
++++++++++++++++++++++++++++OR+++++++++++++++++++++++++++++++++++++++
+
+class Example {
+public static int m() {
+return 100;
+}
+
+    public static void main(String args[]) {
+        int a;
+        a = m();
+    }
+}
+
+///////////////////////////////Compile Ok?//////////////////////////
+
+Quecton-:
+class Example {
+public static void main(String args[]) {
+System.out.println(m());
+}
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Answer-:
+class Example {
+public static int m() {
+return 100;
+}
+
+    public static void main(String args[]) {
+        System.out.println(m());
+    }
+}
+
+
