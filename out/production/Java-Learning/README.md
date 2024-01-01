@@ -112,3 +112,32 @@ return -1; //illegal
         getting(12, 3);
     }
 }
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+class Example {
+public static void findGrade(int a, int b) {
+int tot;
+tot = a + b;
+System.out.println(tot);
+return;
+}
+
+    public static int myMethod(int a, int b) {
+        int tot;
+        tot = a + b;
+        return tot;
+    }
+
+    public static void main(String args[]) {
+        int tot;
+        tot = findGrade(10, 20); //illegal
+        tot = myMethod(40, 50);
+
+        System.out.println(findGrade(10, 20));//illegal
+        System.out.println(myMethod(40, 50));
+    }
+}
+
+//Void type method 1kak kisiwitaka value return krnne na awagema variable akakata asign krnaa ho  sop 1kak athule call krnna baa
