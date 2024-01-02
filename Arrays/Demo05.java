@@ -33,5 +33,24 @@ public class Demo05 {
             }
         }
         System.out.println("Maximum Value is -: " + max);
+
+
+        //Min Value
+        int min =xr[1];
+        for (int i = 0; i < N; i++) {
+            if (min>xr[i]){
+                min=xr[i];
+            }
+        }
+        System.out.println("Minimum Value is -: " + min);
+
+
+        //Print Value
+        System.out.print("Print Value are -: [");
+        for (int i = 0; i < N; i++) {
+            System.out.print(xr[i]+", ");
+        }
+
+        System.out.println("\b\b]");
     }
 }
