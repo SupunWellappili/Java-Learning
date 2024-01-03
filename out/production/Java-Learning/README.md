@@ -362,3 +362,109 @@ public static void main(String[] args) {
         System.out.println(x[3]);
 	}
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+case 7
+=======
+class Example {
+public static void main(String[] args) {
+
+        int[] x =new int[3];
+        int[] y = new int[9];
+        for (int i = 0; i < 10; i++) {
+            x[i] = i;
+        }
+        System.out.println();
+         
+	}
+}
+
+_________________________________________________________________________
+
+class Example {
+public static void main(String[] args) {
+
+        int[] x =new int[3];
+        int[] z = new int[100];
+
+        z[0] = 100;
+        z[-1] = 7687;//legal-->arrys wala index allanna amarui compileta runtime thamai cheak wenne.error godak atha lebe.thawama krmayak hoyagena netha.
+        z[999999] = 65;//legal
+
+    }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+________Zero Elements (Zero Length Array)________
+
+case 8
+=======
+class Example {
+public static void main(String[] args) {
+
+        int[] xr = new int[0];
+        System.out.println(xr.length);//0
+
+        int[] yr = {};
+        System.out.println(yr.length);//0
+    }
+}
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+_____________Array Compatibility______________
+
+case 9
+=======
+class Example {
+public static void main(String[] args) {
+
+        int[] xr = new int[3];
+        double[] yr = new double[3];
+
+//---------------Array Object-------------------------------
+xr[0] = yr[0];//legal
+yr[0] = xr[0];//illegal
+xr[0] = (int) yr[0]; //legal-->cast
+
+//---------------Array Reference-------------------------------
+xr = yr;//illegal
+yr = xr;//illegal
+xr = (int[]) yr;//illegal
+yr = (double[]) xr;//illegal
+}
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+case 10
+=======
+class Example {
+public static void main(String[] args) {
+
+        int[] xr = new double[3];//illegal
+        double[] yr = new int[3];//illegal
+    }
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+case 11
+=======
+//Arrays 1kaka index 1ka long variable 1kakin ganna baa..
+
+class Example {
+public static void main(String[] args) {
+
+        long n = 100;
+        long[] xr = new long[3];//Illegal 
+    }
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+
