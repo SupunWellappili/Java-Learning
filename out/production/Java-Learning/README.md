@@ -237,3 +237,34 @@ return 100;
 }
 
 
+______________Rules For Array Declaration___________
+
+case 1
+=====
+class Example {
+public static void main(String[] args) {
+int x;
+x = 100;
+System.out.println(x);
+
+        int[] xr;  //Create an array referance variable [type int]--> (Array Declaration)
+        xr = new int[5]; //Create an array object (Array Constructor)
+        System.out.println(xr); 
+        
+        xr[0] = 100; //Array Initialization 
+        System.out.println(xr[0]);
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+case 2
+=======
+reference variable Create-->
+int[] a;
+int []a;
+int a[];
+int a[5];  //Illegal
+
+Reference Variable walata size 1kak natha.but c++ waladi nam legal
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
