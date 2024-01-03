@@ -36,10 +36,10 @@ public class Demo05 {
 
 
         //Min Value
-        int min =xr[1];
+        int min = xr[1];
         for (int i = 0; i < N; i++) {
-            if (min>xr[i]){
-                min=xr[i];
+            if (min > xr[i]) {
+                min = xr[i];
             }
         }
         System.out.println("Minimum Value is -: " + min);
@@ -48,9 +48,8 @@ public class Demo05 {
         //Print Value
         System.out.print("Print Value are -: [");
         for (int i = 0; i < N; i++) {
-            System.out.print(xr[i]+", ");
+            System.out.print(xr[i] + ", ");
         }
-
-        System.out.println("\b\b]");
+        System.out.println(N == 0 ? "Empty]" : "\b\b]");
     }
 }
