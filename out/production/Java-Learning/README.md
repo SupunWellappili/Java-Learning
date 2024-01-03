@@ -345,4 +345,20 @@ Result:-
 Length/Size : 10
 23, 45, 33, 23, 2, 31, 45, 65, 22, 11 = Size Count Is :10
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+______Runtime Error (ArrayIndexOutOfBoundsException)______
+
+case 6
+=======
+class Example {
+public static void main(String[] args) {
+
+        int[] x =new int[3];
+
+        System.out.println(x[0]);//0
+        System.out.println(x[1]);//0
+        System.out.println(x[2]);//0
+        System.out.println(x[3]);
+	}
+}
