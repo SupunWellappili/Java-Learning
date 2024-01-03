@@ -362,3 +362,36 @@ public static void main(String[] args) {
         System.out.println(x[3]);
 	}
 }
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+case 7
+=======
+class Example {
+public static void main(String[] args) {
+
+        int[] x =new int[3];
+        int[] y = new int[9];
+        for (int i = 0; i < 10; i++) {
+            x[i] = i;
+        }
+        System.out.println();
+         
+	}
+}
+
+_________________________________________________________________________
+
+class Example {
+public static void main(String[] args) {
+
+        int[] x =new int[3];
+        int[] z = new int[100];
+
+        z[0] = 100;
+        z[-1] = 7687;//legal-->arrys wala index allanna amarui compileta runtime thamai cheak wenne.error godak atha lebe.thawama krmayak hoyagena netha.
+        z[999999] = 65;//legal
+
+    }
+
+
