@@ -268,3 +268,81 @@ int a[5];  //Illegal
 Reference Variable walata size 1kak natha.but c++ waladi nam legal
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+case 3
+=======
+//Variable 1kak manual initialization krnna ona namuth array waldi array object auto initialization(Values) wela thiyenne
+
+class Example {
+public static void main(String[] args) {
+boolean[] x = new boolean[2];
+System.out.println(x[0] + ", " + x[1]); //default values--> false, false
+
+        int[] y = new int[3];
+        System.out.println(y[0] + ", " + y[1] + ", " + y[2]);//default values--> 0, 0, 0
+
+        double[] z = new double[5];
+        System.out.println(z[0] + ", " + z[1] + ", " + z[2] + ", " + z[3] + ", " + z[4]);
+        //default values--> 0.0, 0.0, 0.0, 0.0, 0.0
+
+        String a[] = new String[2];
+        System.out.println(a[0] + " " + a[1]);//default values--> null, null
+
+        char[] ch = new char[3];
+        System.out.println(ch[0]+" "+ch[1]+" "+ch[2]);
+        //Default Values→ASCII Code, ASCII Code (Char Character)
+    }
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+case 4
+=======
+class Example{
+public static void main(String[] args) {
+
+//-------------------------Method 01-------------------------------
+int[] a = new int[5];
+int[]b;
+b= new int[4];
+int[] c = new int[]; //illegal-->Size dila nethi nisa
+
+//-------------------------Method 02-------------------------------
+int[] d = {10,20,30};
+int[] e;
+e ={23,24,25}; //illegal-->kadala liyanna baa
+
+//-------------------------Method 03-------------------------------
+int[] f = new int[]{7,8,9,10};
+int[] g;
+g= new int[]{50,60,70}//illegal-->kadala liyanna baa
+
+//-------------------------Method 04-------------------------------
+int[] h =new int[3]{23,24,25,26};//illegal-->Size denna baa
+
+    }
+}
+
+
+////////////////___________X.length________////////////////////
+
+case 5
+=======
+class Example {
+public static void main(String[] args) {
+
+        int[] x = {23, 45, 33, 23, 2, 31, 45, 65, 22, 11};
+        System.out.println("Length/Size : " + x.length);
+
+        for (int i = 0; i < x.length; i++) {
+            System.out.print(x[i] + ", ");
+        }
+        System.out.println("\b\b"+" = Size Count Is :"+x.length);
+    }
+}
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Result:-
+Length/Size : 10
+23, 45, 33, 23, 2, 31, 45, 65, 22, 11 = Size Count Is :10
+
+
