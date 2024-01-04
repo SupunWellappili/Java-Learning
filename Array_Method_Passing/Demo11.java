@@ -8,10 +8,11 @@ public class Demo11 {
         System.out.print("[");
 
         //Reverse print Arrays [55,34,98,67,43,12]
-        for (int i = x.length-1; i > 0; i--) {
-            System.out.print(x[i]+", ");
+        for (int i = x.length - 1; i >= 0; i--) {
+            System.out.print(x[i] + ", ");
         }
 
         System.out.println("\b\b]");
     }
 }
+
