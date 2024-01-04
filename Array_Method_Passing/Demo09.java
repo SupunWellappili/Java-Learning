@@ -11,6 +11,8 @@ public class Demo09 {
         //Insert Code Here
         for (int i = 0; i < salary.length; i++) {
             salary[i] += salary[i] * 0.1;
+            //salary[i] *= 1.1;
+
         }
         System.out.println(Arrays.toString(salary));
     }
