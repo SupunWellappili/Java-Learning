@@ -12,6 +12,5 @@ public class Demo06 {
         ) {
             System.out.print(n+". ");
         }
-
     }
 }
