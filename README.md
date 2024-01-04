@@ -468,3 +468,60 @@ public static void main(String[] args) {
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 
+______for-each loops/en-hand for loops(since JDK1.5)_____
+
+//meya use krnne Arrays and collecting class walata pamini
+
+
+
+pcase01
+=======
+
+import java.sql.SQLOutput;
+
+class Example {
+public static void main(String[] args) {
+
+        int[] ar = {45, 76, 34, 12, 98, 78, 99, 5};
+        System.out.println(Arrays.toString(ar));
+        for (int a : ar) {//for-each loop-->Read only loop
+            a++;
+        }
+        System.out.println(Arrays.toString(ar));//[45, 76, 34, 12, 98, 78, 99, 5]
+
+
+        for (int i = 0; i < ar.length; i++) { //for loop-->modifer loop
+            ar[i]++;
+        }
+        System.out.println(Arrays.toString(ar));//[46, 77, 35, 13, 99, 79, 100, 6]
+    }
+}
+
+////////////////////////////////////////////////////////////////////
+case02
+=======
+
+class Example {
+public static void main(String[] args) {
+
+        int[] ar = {45, 76, 34, 12, 98, 78, 99, 5};
+        System.out.println(Arrays.toString(ar));
+        for (byte a : ar) {    //illegal(naror casting)
+            a++;
+        }
+        System.out.println(Arrays.toString(ar));
+
+///////////////////////////////////////////////////////////////////////
+case03
+=======
+
+class Example {
+public static void main(String[] args) {
+
+        int[] ar = {45, 76, 34, 12, 98, 78, 99, 5};
+        System.out.println(Arrays.toString(ar));
+	int a;    //illegal(Kalin inititation krnna ba)
+        for ( a : ar) {    //illegal(naror casting)
+            a++;
+        }
+        System.out.println(Arrays.toString(ar));
