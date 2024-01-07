@@ -525,3 +525,171 @@ public static void main(String[] args) {
             a++;
         }
         System.out.println(Arrays.toString(ar));
+////////////////////////////////////////////////////////////////////////////////////////////
+
+Excersices
+==========
+import java.util.Arrays;
+
+class Example {
+public static void main(String[] args) {
+int[] ar = {90, 10, 80, 20, 70, 30, 60, 40, 50, 0};
+System.out.println(Arrays.toString(ar));//[90, 10, 80, 20, 70, 30, 60, 40, 50, 0]
+reverse(ar);
+System.out.println(Arrays.toString(ar));//[0,50,40,60,30,70,20,80,10,90]
+}
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Result (Not complete)
+=================
+
+
+import java.util.Arrays;
+
+class Example {
+public static void reverse(int[] a) {
+for (int i = a.length - 1; i<=0; i--) {
+a[i];
+}
+}
+
+
+
+
+    public static void main(String[] args) {
+        int[] ar = {90, 10, 80, 20, 70, 30, 60, 40, 50, 0};
+        System.out.println(Arrays.toString(ar));//[90, 10, 80, 20, 70, 30, 60, 40, 50, 0]
+        reverse(ar);
+        System.out.println(Arrays.toString(ar));//[0,50,40,60,30,70,20,80,10,90]
+    }
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+Excersices
+==========
+import java.sql.SQLOutput;
+
+class Example {
+public static void main(String[] args) {
+int[] ar = {1, 2, 3, 4, 5, 2};
+int[] br = {2, 5, 4, 3, 2, 1};
+int[] cr = {2, 4, 5, 2, 1, 3};
+int[] dr = {2, 4, 99, 1, 3,2};
+int[] er = {2, 4, 5, 1, 3, 6};
+int[] fr = {2, 5, 1, 3};
+
+        System.out.println("ar equals to br : " + equals(ar, br));//true
+        System.out.println("ar equals to cr : " + equals(ar, cr));//true
+        System.out.println("ar equals to dr : " + equals(ar, dr));//false
+        System.out.println("ar equals to er : " + equals(ar, er));//false
+        System.out.println("ar equals to fr : " + equals(ar, fr));//false
+    }
+}
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Result (Not complete)
+=======
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+Excersices
+==========
+import java.util.Arrays;
+import java.util.Scanner;
+
+class Example {
+public static void main(String[] args) {
+Scanner input = new Scanner(System.in);
+System.out.println("Input an integer : ");
+int num = input.nextInt();
+System.out.println("Num :" + num);
+
+        int[] ar = numberToArray(num);
+        for (int a : ar) {
+            System.out.println(a + " ");
+        }
+
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Result (Not complete) 1kramaya
+=======
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+class Example {
+public static int digitCount(int num) {
+int count = 0;
+do {
+count++;
+} while ((num /= 10) != 0);
+return count;
+}
+
+
+    public static int[] numberToArray(int a) {
+        int[] temp = new int[digitCount(number)];
+        //
+        //
+        return temp;
+    }
+
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Input an integer : ");
+        int num = input.nextInt();
+        System.out.println("Num :" + num);
+
+        int[] ar = numberToArray(num);
+        for (int a : ar) {
+            System.out.println(a + " ");
+        }
+
+    }
+}
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+2 weni kramaya  element add kra kra yana aka(ss atha)
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+Excersices
+==========
+import java.util.Arrays;
+
+class Example {
+public static int digitCount(int num) {
+int[] ar = {1, 2, 3, 4, 5};
+int[] br = {10, 20, 30, 40, 50, 60, 70};
+
+        int[] cr = marge(ar, br);
+        System.out.println(Arrays.toString(cr));//[1,2,3,4,5,10,20,30,40,50,60,70]
+    }
+}
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Result (Not complete)
+=======
+import java.util.Arrays;
+
+class Example {
+public static int[] marge(int[] a, int[] b) {
+int[] x = new int[a.length + b.length];
+//1 copy values from a to x
+//2 copy values from b to x
+}
+
+
+    public static int digitCount(int num) {
+        int[] ar = {1, 2, 3, 4, 5};
+        int[] br = {10, 20, 30, 40, 50, 60, 70};
+
+        int[] cr = marge(ar, br);
+        System.out.println(Arrays.toString(cr));//[1,2,3,4,5,10,20,30,40,50,60,70]
+    }
+}
