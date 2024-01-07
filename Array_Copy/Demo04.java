@@ -6,7 +6,7 @@ public class Demo04 {
 
     public static void reverse(int[] a) {
             for (int i = a.length - 1; i<=0; i--) {
-                a[i];
+               // a[i];
             }
     }
 
