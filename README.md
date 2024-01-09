@@ -718,3 +718,18 @@ int[][] marks = new int[10][4];
 //element 4 k thiyena 10ka unit 1kak
 marks[10][4]-->marks 10arry 1ke 4weni element 1ka
 marks[i][j]-->marks i weni array 1ke j weni element 1ka/marks i row 1ke j column 1ka
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+class Demo{
+public static void main (String args[]){
+int x;
+System.out.println(x);
+**_// array inisilization krnna awashya netha aya automatically siduwe jvm 1ka harha default thatha**_
+
+		int [] xr = new int[3];
+		System.out.println(xr[0]+" "+xr[1]+" "+xr[2]);
+	}
+}
+
