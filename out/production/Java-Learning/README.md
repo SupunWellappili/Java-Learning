@@ -733,3 +733,27 @@ System.out.println(x);
 	}
 }
 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+package Multi_Dimensional_Arrays;
+
+public class Demo04 {
+public static void main(String[] args) {
+
+
+        int[] ir = new int[3];
+        double[] dr = new double[2];
+
+        ir[0] = dr[0]; //illegal
+        dr[0] = ir[0];
+        ir[0] = (int) dr[0];
+        //all illegal(array object 1kak kisima welawaka asign krnna ba)
+        ir = dr;
+        dr = ir;
+        ir = (int[]) dr;
+        dr = (int[]) ir;
+    }
+
+}
+

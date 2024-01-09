@@ -25,7 +25,5 @@ public class Demo02 {
 
         int grade = cr[0];
         System.out.println(grade);
-
-
     }
 }
