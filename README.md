@@ -702,3 +702,19 @@ int[] x = new int[a.length + b.length];
 4. Quick Sort
 5. Heap Sort
 6. Marge Sort
+
+
+
+
+**____________Multi-Dimensional Arrays_____________**
+
+1. one dimensional arrays
+2. two dimensional arrays(2D arrays)
+
+
+int[][] marks = new int[10][4];
+[10]-->No of Arrays/No of RowsNo of Student
+[4]-->No of Element per each Arrays/No Of ColoumsNo of Subject
+//element 4 k thiyena 10ka unit 1kak
+marks[10][4]-->marks 10arry 1ke 4weni element 1ka
+marks[i][j]-->marks i weni array 1ke j weni element 1ka/marks i row 1ke j column 1ka
