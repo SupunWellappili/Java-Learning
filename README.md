@@ -693,3 +693,12 @@ int[] x = new int[a.length + b.length];
         System.out.println(Arrays.toString(cr));//[1,2,3,4,5,10,20,30,40,50,60,70]
     }
 }
+
+
+**_______________Array Sorting________________**
+1. Bubble Sort
+2. Selection Sort
+3. Insertition Sort
+4. Quick Sort
+5. Heap Sort
+6. Marge Sort
