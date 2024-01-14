@@ -1,8 +1,6 @@
 package Activities;
 
-
 public class Demo13 {
-
     public static boolean printNumber(int value) {
         for (int i = 2; i < value; i++) {
             if (value % i == 0) {
