@@ -13,6 +13,5 @@ public class Demo07 {
         //Array Reference
        //xr=dr;//Illegal
        // dr=xr;//Illegal
-
     }
 }
