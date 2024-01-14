@@ -2,7 +2,7 @@ package Return;
 
 public class Demo07 {
 
-    public static  int m() {
+    public static int m() {
         return 100;
     }
 
