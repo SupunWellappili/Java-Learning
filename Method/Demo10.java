@@ -16,3 +16,8 @@ public class Demo10 {
 
     }
 }
+
+  //  public static void printToal(int xr)  // para metar variable
+  //  public static void printTotal(int[] xr)  // Array reference variable
+ //   public static void printTotal(int… xr)  // Array Argument variable //Array references nethuwa unath refer krnna puluwan
+
