@@ -55,6 +55,12 @@ ___________Return_____________
 1)return; (Only "Void" type method )---optional
 2)return date; (return type method)
 
+- [ ] return —> Anivaren void method wiya uthui, method akai return krnne..
+- [ ] return data —> Data akai return kranne..
+- [ ] return statement akak thibeda aniwaren return data akak thibiya uthumai…[public static int void printTotal(int a,int b)]
+- [ ] return statement akak athule condition akak  thiyenawa nam aniwaren sema statment akakma cheak krai..
+
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
 
