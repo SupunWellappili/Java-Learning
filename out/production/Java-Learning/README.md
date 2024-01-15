@@ -740,7 +740,7 @@ System.out.println(x);
 }
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
 
 package Multi_Dimensional_Arrays;
 
@@ -760,6 +760,11 @@ public static void main(String[] args) {
         ir = (int[]) dr;
         dr = (int[]) ir;
     }
-
 }
 
+
+//////////////////////////////////////////////////////////
+
+public static void printToal(int xr)  //para metar variable
+public static void printTotal(int[] xr)  //Array reference variable
+public static void printTotal(int… xr)  //Array Argument variable //Array references nethuwa unath refer krnna puluwan

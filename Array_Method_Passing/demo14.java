@@ -3,12 +3,12 @@ package Array_Method_Passing;
 import java.util.Arrays;
 
 public class demo14 {
-
     public static void copyValuesFromTo(int[] ar, int[] br) {
         for (int i = 0; i < br.length; i++) {
             br[i] = ar[i];
         }
     }
+
 
     public static void main(String[] args) {
         int[] ar = {10, 20, 30, 40, 50, 60};
