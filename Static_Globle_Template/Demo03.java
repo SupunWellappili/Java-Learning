@@ -15,8 +15,8 @@ public class Demo03 {
         increment(x);
         increment(x);
 
-        System.out.println(x);
-        System.out.println(y);
+        System.out.println(x);//100
+        System.out.println(y);//103
 
 
     }
