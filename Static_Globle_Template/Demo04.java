@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class Demo04 {
     static int[] xr = {10, 20, 30, 40, 50};
 
-
     public static void main(String[] args) {
         System.out.println(Arrays.toString(xr));
         Increment();
